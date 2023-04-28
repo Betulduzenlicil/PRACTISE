@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+    
+    <title>Registration Form</title>
 </head>
 <body>
     
+    <form action="result.html">
+        <table>
+            <thead>
+                <tr>
+                    <th class="baslık" colspan="2">Registration Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="name">First Name:</label></td>
+                    <td><input type="text" name="fname" id="name" placeholder="Adınızı Giriniz"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Last Name:</label></td>
+                    <td><input type="text" name="fname" id="name" placeholder="Soyadınızı Giriniz"></td>
+                </tr><tr>
+                    <td><label for="name">E-mail:</label></td>
+                    <td><input type="email" name="name" id="name" required></td>
+                </tr><tr>
+                    <td><label for="name">Password</label></td>
+                    <td><input type="password" name="pass" id="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Date of Birth</label></td>
+                    <td><input type="date" name="pass" id="name" placeholder="Adınızı Giriniz"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                </tr>
+                <tbody>
+                    <td>
+                    <input type="radio" name="gender" id="erkek">
+                    <label for="erkek">Male</label>
+                    <input type="radio" name="gender" id="kadın">
+                    <label for="kadın">Female</label></td></tr>
+                    </tbody>
+                        <tr></tr>
+                        <td>
+                            <label for="tel">Mobile</label>
+                            <td><input type="tel" name="mobile" id="tel"></td>
+                        </td></tr>
+                        <tr>
+                            <td class="btn" colspan="2">
+                                <input type="submit" value="SUBMİT">
+                            <input type="reset" value="CLEAR"></td>
+                           
+                        </tr>
+            </tbody>
+        </table>
+     
+    </form>
 </body>
 </html>
